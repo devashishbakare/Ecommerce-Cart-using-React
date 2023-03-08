@@ -10,9 +10,9 @@ function Cart(props) {
                         <CartItem 
                             product = {product}
                             key = {product.id}
-                            onIncreaseQuantity = {props.increaseQuantity}
-                            onDecreaseQuantity = {props.decreaseQuantity}
-                            onDeleteItem = {props.deleteCartItem}
+                            onIncreaseQuantity = {props.onIncreaseQuantity}
+                            onDecreaseQuantity = {props.onDecreaseQuantity}
+                            onDeleteItem = {props.onDeleteItem}
                         />
                     );
                 })}
@@ -22,3 +22,4 @@ function Cart(props) {
 }
 
 export default Cart;
+
