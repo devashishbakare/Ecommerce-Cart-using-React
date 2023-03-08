@@ -7,13 +7,19 @@ class CartItem extends React.Component{
             price : 9999,
             title : "Mobile Phone",
             quantity : 1,
-            img : ''
+            img : '',
+            number : 1
         }
+      
+
     }
+   
+  
 
     increaseQuantity = () => {
         //first form 
         // this.setState({
+            
         //     quantity : this.state.quantity +1
         // });
         
@@ -23,6 +29,7 @@ class CartItem extends React.Component{
                 quantity : oldState.quantity + 1
             }
         });
+        console.log(this.state.quantity);
     }
 
     decreaseQuantity = () => {
