@@ -1,3 +1,4 @@
+import React from "react";
 import CartItem from "./CartItem";
 function Cart(props) {
     const {products} = props;
@@ -9,9 +10,9 @@ function Cart(props) {
                         <CartItem 
                             product = {product}
                             key = {product.id}
-                            onIncreaseQuantity = {this.increaseQuantity}
-                            onDecreaseQuantity = {this.decreaseQuantity}
-                            onDeleteItem = {this.deleteCartItem}
+                            onIncreaseQuantity = {props.increaseQuantity}
+                            onDecreaseQuantity = {props.decreaseQuantity}
+                            onDeleteItem = {props.deleteCartItem}
                         />
                     );
                 })}

@@ -11,21 +11,21 @@ class App extends React.Component{
           price : 669,
           title : "Digital Watch",
           quantity : 1,
-          img : "",
+          img : "https://cdn.shopify.com/s/files/1/0997/6284/products/Side03_900x.png?v=1672316134",
           id : 1 
         }, 
         {
           price : 9999,
           title : "Mobile Phone",
           quantity : 1,
-          img : "",
+          img : "https://m.media-amazon.com/images/I/71AvQd3VzqL._SX425_.jpg",
           id : 2 
         }, 
         {
           price : 199,
           title : "Book",
           quantity : 10,
-          img : "",
+          img : "https://m.media-amazon.com/images/I/51kzUUHhMTL.jpg",
           id : 3 
         }
       ]
