@@ -1,6 +1,6 @@
 function CartItem(props){
 
-    const { price, title, quantity, img, id} = props.product;
+    const { price, title, quantity} = props.product;
     const {product, onIncreaseQuantity, onDecreaseQuantity, onDeleteItem} = props;
 
     return (

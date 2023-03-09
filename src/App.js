@@ -57,7 +57,7 @@ class App extends React.Component{
   deleteCartItem = (product) =>{
     const {products} = this.state;
     const newProducts = products.filter((item) => {
-      return item.id != product.id;
+      return item.id !== product.id;
     });
     this.setState({
       products : newProducts
